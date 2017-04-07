@@ -7,9 +7,19 @@
 </head>
 <body>
 
-<canvas id='canvas>
+<canvas id='canvas'>
   Sorry, your browser does not support the canvas tag.
 </canvas>
+<script>
+  // Casch a reference to the HTML element
+  var canvas=document.getElementById('canvas');
+
+  
+  var ctx = canvas.getContext('2d');
+
+  ctx.fillRect(10,10,100,100);
+  </script>
+
 
 </body>
 </html>
